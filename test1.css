@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+
+.item{
+    width: 50px;
+    color: red;
+}
+
+
+/* .ite2{
+    color: rgb(0, 255, 34);
+    flex-grow: 2;
+} */
