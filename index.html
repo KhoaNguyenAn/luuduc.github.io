@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="index.css">
-  <title>Social Media</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Diffie-Hellman's key exchange</title>
 </head>
 
 <body>
@@ -14,9 +15,7 @@
       <div class="start"></div>
 
       <div class="center">
-        <form action="index.html" method="post">
-          <input id="search" type="text" name="search-query" placeholder="abc">
-        </form>
+        <p style="color: white; font-size: 28px; width: 800px;">DIFFIE - HELLMAN's Key Exchange SIMULATE </p>
       </div>
 
       <div class="end"></div>
@@ -25,42 +24,95 @@
 
     <div class="header-outline"></div>
   </header>
-
+  <button class="Button" onclick="go()"> START</button>
   <div class="main">
     <nav>
       <ul>
         <li>
-          <div class="nav-item">
-            <a href="#">GPU</a>
+          <div class="nav-item" style="width: 250px;">
+            <a href="#">Luu Trung Duc</a>
           </div>
         </li>
         <li>
-          <div class="nav-item">
-            <a href="#">CPU</a>
+          <div class="nav-item" style="width: 250px;">
+            <a href="#">ITDSIU20003</a>
           </div>
         </li>
         <li>
-          <div class="nav-item">
-            <a href="#">RAM</a>
-          </div>
-        </li>
-        <li>
-          <div class="nav-item">
-            <a href="#">HDD</a>
-          </div>
-        </li>
-        <li>
-          <div class="nav-item">
-            <a href="#">SDD</a>
+          <div class="nav-item" style="width: 250px;">
+            <a href="#">Fundamental Concept of Data Security</a>
           </div>
         </li>
       </ul>
     </nav>
+  </div>
+  <br>
+  <img src="1.png" alt="" id="img">
+  <div id="mid">
+    <div class="A">
+      <br>
+      <div class="headerA"> A </div>
 
-    <div class="content">
-      <ul id="item-list"></ul>
+      <div class="A1">
+        <div class="value">
+          P = 23
+          G = 5
+        </div>
+        <div id="secretA">
+
+        </div>
+      </div>
+
+      <br>
+
+      <div class="A1">
+        <div id="a1">
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <div class="A1">
+        <div id="a2">
+
+        </div>
+      </div>
+
     </div>
+    <div class="B">
+      <br>
+      <div class="headerB"> B </div>
 
+      <div class="B1">
+        <div class="value">
+          P = 23
+          G = 5
+        </div>
+        <div id="secretB">
+
+        </div>
+      </div>
+
+      <br>
+
+      <div class="B1">
+        <div id="b1">
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <div class="B1">
+        <div id="b2">
+
+        </div>
+      </div>
+
+    </div>
   </div>
 </body>
 <script src="index.js" charset="utf-8"></script>
